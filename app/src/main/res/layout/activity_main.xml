@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="horizontal">
 
 <LinearLayout
-    android:layout_width="wrap_content"
+    android:layout_width="0dp"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_weight="1">
@@ -59,17 +59,13 @@
         android:layout_marginRight="24dp"
         android:onClick="AddFreeThrowTeamA"/>
 </LinearLayout>
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="300dp"
-    android:layout_marginTop="16dp">
     <View
         android:layout_width="1dp"
-        android:layout_height="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
         android:background="@android:color/darker_gray"/>
-</LinearLayout>
 <LinearLayout
-android:layout_width="wrap_content"
+android:layout_width="0dp"
 android:layout_height="match_parent"
 android:orientation="vertical"
 android:layout_weight="1">
